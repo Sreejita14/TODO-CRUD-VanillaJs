@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Things to Remember</h1>
+    </header>
+    <form>
+      <input type="text" class="addtaskinput" placeholder="Enter task..."/>
+      <input type="hidden" class="saveindex">
+      <button class="addtaskbtn" type="button">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <button class="savetaskbtn" type="button" style="display: none;">
+        <i class="fas fa-save"></i>
+      </button>
+      <button class="deleteallbtn" type="button">
+        <i class="fas fa-minus-square"></i>
+      </button>
+    
+    </form>
+    <div class=" todo-container">
+     <ul id="addedtasklist">
+          
+  </ul>
+    
+    
+    </div>
+  
+    
+    <script src="./app.js"></script>
+    
+  </body>
+</html>
